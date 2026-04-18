@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #09090b;
+  --accent: #18181b;
+  --card-bg: #ffffff;
+  --card-border: #e4e4e7;
+  --muted: #71717a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  /* Clean App Cards */
+  .brutalist-card {
+    @apply bg-white border border-zinc-200 rounded-[2rem] shadow-sm hover:shadow-md transition-all duration-300;
+  }
+  
+  .brutalist-button {
+    @apply bg-white text-zinc-900 border border-zinc-200 rounded-2xl font-semibold py-4 px-8 shadow-sm hover:bg-zinc-50 hover:border-zinc-300 active:scale-[0.98] transition-all;
+  }
+
+  .brutalist-button-primary {
+    @apply bg-zinc-900 text-white rounded-2xl font-semibold py-4 px-8 shadow-lg shadow-zinc-200/50 hover:bg-black hover:shadow-xl hover:shadow-zinc-300/50 active:scale-[0.98] transition-all;
+  }
+
+  .brutalist-pill {
+    @apply bg-zinc-100 text-zinc-600 px-4 py-1.5 rounded-full text-[11px] font-bold uppercase tracking-wider;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: #e4e4e7;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4d4d8;
+}
+
+/* Utilities */
+.text-big {
+  font-size: 8rem;
+  letter-spacing: -0.05em;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes progress {
+  0% { transform: scaleX(0); }
+  50% { transform: scaleX(0.7); }
+  100% { transform: scaleX(1); }
+}
+
+.animate-progress {
+  animation: progress 2s ease-in-out infinite;
+}
+

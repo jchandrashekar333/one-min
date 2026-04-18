@@ -1,0 +1,2148 @@
+{
+  "easy": {
+    "General": [
+      {
+        "word": "morning",
+        "subtitle": "the early part of the day",
+        "prompts": [
+          "What is your morning routine?",
+          "Do you like waking up early?",
+          "What do you usually eat for breakfast?",
+          "Describe a beautiful sunrise you saw."
+        ]
+      },
+      {
+        "word": "travel",
+        "subtitle": "going from one place to another",
+        "prompts": [
+          "Where was your last vacation?",
+          "What is your favorite way to travel?",
+          "Who do you like to travel with?",
+          "Name a place you want to visit."
+        ]
+      },
+      {
+        "word": "hobby",
+        "subtitle": "activities you do for fun",
+        "prompts": [
+          "What do you do in your free time?",
+          "Why did you start your favorite hobby?",
+          "Is it important to have hobbies?",
+          "What hobby would you like to try?"
+        ]
+      },
+      {
+        "word": "nature",
+        "subtitle": "the physical world and animals",
+        "prompts": [
+          "Do you prefer the beach or the mountains?",
+          "What is your favorite animal?",
+          "How often do you go for a walk in a park?",
+          "Why should we protect the environment?"
+        ]
+      },
+      {
+        "word": "food",
+        "subtitle": "what people and animals eat",
+        "prompts": [
+          "What is your favorite meal?",
+          "Do you like cooking?",
+          "What is a food you really dislike?",
+          "If you could only eat one thing forever, what would it be?"
+        ]
+      },
+      {
+        "word": "friendship",
+        "subtitle": "the emotion or state of being friends",
+        "prompts": [
+          "What makes a good friend?",
+          "How long have you known your best friend?",
+          "Do you prefer a few close friends or many acquaintances?",
+          "How do you stay in touch with friends?"
+        ]
+      },
+      {
+        "word": "Innovation",
+        "subtitle": "Disrupt the Status Quo",
+        "prompts": [
+          "What is the most innovative product you've seen recently?",
+          "How can innovation solve real-world problems?",
+          "What are some barriers to innovation in your industry?",
+          "How can you apply innovative thinking to your daily life?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Save the Planet",
+        "prompts": [
+          "What are some simple ways to live a more sustainable lifestyle?",
+          "How can businesses prioritize sustainability?",
+          "What role do individuals play in promoting sustainability?",
+          "How can technology help reduce our carbon footprint?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Walk a Mile",
+        "prompts": [
+          "Can you recall a time when someone showed you empathy?",
+          "How can empathy improve our relationships?",
+          "What are some ways to practice active listening?",
+          "How can we use empathy to resolve conflicts?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bounce Back",
+        "prompts": [
+          "What is the most challenging experience you've faced?",
+          "How can you build resilience in the face of adversity?",
+          "What role does self-care play in maintaining resilience?",
+          "How can you help others develop resilience?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Be Present",
+        "prompts": [
+          "What are some benefits of practicing mindfulness?",
+          "How can mindfulness improve our mental health?",
+          "What are some simple mindfulness exercises?",
+          "How can we incorporate mindfulness into our daily routine?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Think Outside",
+        "prompts": [
+          "What sparks your creativity?",
+          "How can you overcome creative blocks?",
+          "What role does imagination play in problem-solving?",
+          "How can you use creativity to innovate in your industry?"
+        ]
+      },
+      {
+        "word": "Authenticity",
+        "subtitle": "Be Yourself",
+        "prompts": [
+          "What does authenticity mean to you?",
+          "How can you stay true to yourself in a world of expectations?",
+          "What are some benefits of being authentic?",
+          "How can you promote authenticity in your community?"
+        ]
+      },
+      {
+        "word": "Courage",
+        "subtitle": "Face Your Fears",
+        "prompts": [
+          "What is the most courageous thing you've ever done?",
+          "How can you build courage in the face of uncertainty?",
+          "What role does courage play in personal growth?",
+          "How can you inspire courage in others?"
+        ]
+      },
+      {
+        "word": "Community",
+        "subtitle": "Together We Rise",
+        "prompts": [
+          "What makes a strong community?",
+          "How can you get involved in your local community?",
+          "What are some benefits of building a community?",
+          "How can you use your skills to give back to your community?"
+        ]
+      },
+      {
+        "word": "Legacy",
+        "subtitle": "Leave a Mark",
+        "prompts": [
+          "What kind of legacy do you want to leave?",
+          "How can you make a positive impact on future generations?",
+          "What are some ways to create a lasting legacy?",
+          "How can you use your talents to make a difference?"
+        ]
+      },
+      {
+        "word": "Neuroplasticity",
+        "subtitle": "Rewire your brain",
+        "prompts": [
+          "What does neuroplasticity mean to you?",
+          "How can you rewire your brain for success?",
+          "What are some daily habits to improve neuroplasticity?",
+          "Can neuroplasticity help with mental health?"
+        ]
+      },
+      {
+        "word": "Digital Footprint",
+        "subtitle": "Leave a mark online",
+        "prompts": [
+          "What is your current digital footprint?",
+          "How can you manage your online presence?",
+          "What are the consequences of a negative digital footprint?",
+          "Can you completely erase your digital footprint?"
+        ]
+      },
+      {
+        "word": "Emotional Intelligence",
+        "subtitle": "Understand emotions",
+        "prompts": [
+          "What is emotional intelligence and why is it important?",
+          "How can you improve your emotional intelligence?",
+          "Can emotional intelligence be taught?",
+          "What role does emotional intelligence play in relationships?"
+        ]
+      },
+      {
+        "word": "Artificial Intelligence",
+        "subtitle": "The future is now",
+        "prompts": [
+          "What are the current applications of artificial intelligence?",
+          "How will artificial intelligence change the workforce?",
+          "Can artificial intelligence surpass human intelligence?",
+          "What are the potential risks of artificial intelligence?"
+        ]
+      },
+      {
+        "word": "Cultural Diversity",
+        "subtitle": "Celebrate differences",
+        "prompts": [
+          "What does cultural diversity mean to you?",
+          "How can we promote cultural diversity in our communities?",
+          "What are some benefits of cultural diversity in the workplace?",
+          "Can cultural diversity improve social cohesion?"
+        ]
+      },
+      {
+        "word": "Personal Growth",
+        "subtitle": "Evolve and thrive",
+        "prompts": [
+          "What does personal growth mean to you?",
+          "How can you set goals for personal growth?",
+          "What are some strategies for overcoming obstacles to growth?",
+          "Can personal growth lead to greater happiness?"
+        ]
+      },
+      {
+        "word": "Social Justice",
+        "subtitle": "Fight for equality",
+        "prompts": [
+          "What does social justice mean to you?",
+          "How can individuals contribute to social justice movements?",
+          "What are some current social justice issues?",
+          "Can social justice be achieved through peaceful means?"
+        ]
+      }
+    ],
+    "Tech": [
+      {
+        "word": "phone",
+        "subtitle": "a portable communication device",
+        "prompts": [
+          "How often do you use your phone?",
+          "What is your favorite app?",
+          "Can you live without your phone for a day?",
+          "How have phones changed our lives?"
+        ]
+      },
+      {
+        "word": "internet",
+        "subtitle": "a global computer network",
+        "prompts": [
+          "What do you use the internet for?",
+          "How did people live before the internet?",
+          "Is the internet safe for kids?",
+          "What is your favorite website?"
+        ]
+      },
+      {
+        "word": "camera",
+        "subtitle": "device for taking photos",
+        "prompts": [
+          "Do you like taking photos?",
+          "What do you usually take pictures of?",
+          "Is a phone camera enough for you?",
+          "Do you print your photos or keep them digital?"
+        ]
+      },
+      {
+        "word": "laptop",
+        "subtitle": "a portable computer",
+        "prompts": [
+          "Do you use a laptop for work or fun?",
+          "Could you do your job on a phone instead?",
+          "What is the most important feature of a laptop?",
+          "How many hours a day do you spend on a computer?"
+        ]
+      },
+      {
+        "word": "Ambition",
+        "subtitle": "Driving force behind success",
+        "prompts": [
+          "What fuels your ambition?",
+          "How do you set ambitious goals?",
+          "Can ambition be a double-edged sword?",
+          "How do you stay motivated to achieve your ambitions?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Being present in the moment",
+        "prompts": [
+          "What does mindfulness mean to you?",
+          "How can mindfulness improve mental health?",
+          "Can mindfulness be practiced in daily activities?",
+          "How does mindfulness impact your relationships?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bouncing back from adversity",
+        "prompts": [
+          "What is the most challenging situation you've faced?",
+          "How did you develop resilience in that situation?",
+          "Can resilience be learned or is it innate?",
+          "How does resilience impact your personal and professional life?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Preserving the planet for future generations",
+        "prompts": [
+          "What does sustainability mean to you?",
+          "How can individuals contribute to sustainability?",
+          "What are the benefits of sustainable living?",
+          "How can businesses prioritize sustainability?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Thinking outside the box",
+        "prompts": [
+          "What inspires your creative thinking?",
+          "How can creativity be fostered in a team environment?",
+          "Can creativity be developed or is it innate?",
+          "How does creativity impact problem-solving?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Understanding and sharing feelings",
+        "prompts": [
+          "What does empathy mean to you?",
+          "How can empathy be developed in personal relationships?",
+          "Can empathy be practiced in professional settings?",
+          "How does empathy impact conflict resolution?"
+        ]
+      },
+      {
+        "word": "Innovation",
+        "subtitle": "Turning ideas into reality",
+        "prompts": [
+          "What drives innovation in your industry?",
+          "How can innovation be encouraged in a team?",
+          "What are the risks and benefits of innovation?",
+          "How does innovation impact societal progress?"
+        ]
+      },
+      {
+        "word": "Diversity",
+        "subtitle": "Celebrating individual differences",
+        "prompts": [
+          "What does diversity mean to you?",
+          "How can diversity be promoted in the workplace?",
+          "Can diversity impact creativity and innovation?",
+          "How does diversity shape our perceptions of the world?"
+        ]
+      },
+      {
+        "word": "Perseverance",
+        "subtitle": "Pushing through challenges",
+        "prompts": [
+          "What motivates you to persevere in difficult situations?",
+          "How can perseverance be developed in personal and professional life?",
+          "Can perseverance lead to success?",
+          "How does perseverance impact mental and physical health?"
+        ]
+      },
+      {
+        "word": "Authenticity",
+        "subtitle": "Being true to oneself",
+        "prompts": [
+          "What does authenticity mean to you?",
+          "How can authenticity be maintained in a rapidly changing world?",
+          "Can authenticity impact relationships and communication?",
+          "How does authenticity shape our sense of self?"
+        ]
+      }
+    ],
+    "Finance": [
+      {
+        "word": "savings",
+        "subtitle": "money kept for the future",
+        "prompts": [
+          "Why should people save money?",
+          "Do you have a piggy bank?",
+          "What are you saving up for?",
+          "Is it hard to save money?"
+        ]
+      },
+      {
+        "word": "shopping",
+        "subtitle": "buying things from stores",
+        "prompts": [
+          "Do you like shopping online?",
+          "What was the last thing you bought?",
+          "Who do you go shopping with?",
+          "Is shopping a hobby for you?"
+        ]
+      },
+      {
+        "word": "allowance",
+        "subtitle": "money given regularly",
+        "prompts": [
+          "Should children get an allowance?",
+          "What did you buy with your first 'work' money?",
+          "How do you teach kids about money?",
+          "Is it better to give kids money or buy them what they need?"
+        ]
+      },
+      {
+        "word": "Authenticity",
+        "subtitle": "Be True To Yourself",
+        "prompts": [
+          "What does being authentic mean to you?",
+          "How do you stay true to yourself in difficult situations?",
+          "Can you recall a time when you had to choose between being authentic or fitting in?",
+          "How does authenticity impact your relationships with others?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Unleash Your Imagination",
+        "prompts": [
+          "What sparks your creative energy?",
+          "How do you overcome creative blocks?",
+          "Can you describe a time when your creativity led to an innovative solution?",
+          "How does creativity contribute to personal growth?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Walk In Someone Else's Shoes",
+        "prompts": [
+          "How do you practice empathy in your daily life?",
+          "Can you recall a time when someone showed you empathy?",
+          "What are some common barriers to empathy?",
+          "How does empathy impact your relationships and communication?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bounce Back Stronger",
+        "prompts": [
+          "What strategies do you use to cope with adversity?",
+          "Can you describe a challenging experience and how you overcame it?",
+          "How does resilience impact your mental health?",
+          "What role does self-care play in building resilience?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Protect The Planet",
+        "prompts": [
+          "What small changes can individuals make to live more sustainably?",
+          "How does climate change affect local communities?",
+          "Can you discuss the impact of consumerism on the environment?",
+          "What are some innovative solutions to sustainability challenges?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Be Present In The Moment",
+        "prompts": [
+          "How do you practice mindfulness in your daily routine?",
+          "What are the benefits of mindfulness for mental health?",
+          "Can you describe a time when mindfulness helped you navigate a difficult situation?",
+          "How does mindfulness impact your relationships and communication?"
+        ]
+      },
+      {
+        "word": "Diversity",
+        "subtitle": "Celebrate Our Differences",
+        "prompts": [
+          "What does diversity mean to you?",
+          "Can you describe a time when you learned from someone with a different background?",
+          "How does diversity impact innovation and creativity?",
+          "What are some ways to promote inclusivity in your community?"
+        ]
+      },
+      {
+        "word": "Perseverance",
+        "subtitle": "Never Give Up",
+        "prompts": [
+          "What motivates you to keep going when faced with obstacles?",
+          "Can you recall a time when perseverance paid off?",
+          "How does perseverance impact personal growth and development?",
+          "What role does self-discipline play in persevering through challenges?"
+        ]
+      },
+      {
+        "word": "Humor",
+        "subtitle": "Laughter Is The Best Medicine",
+        "prompts": [
+          "How does humor impact your mental health and well-being?",
+          "Can you describe a time when humor helped you connect with someone?",
+          "What are some ways to use humor to diffuse tense situations?",
+          "How does humor contribute to creativity and problem-solving?"
+        ]
+      },
+      {
+        "word": "Gratitude",
+        "subtitle": "Focus On The Positive",
+        "prompts": [
+          "What are some things you're grateful for in your life?",
+          "How does practicing gratitude impact your mental health?",
+          "Can you describe a time when gratitude helped you shift your perspective?",
+          "What are some ways to cultivate gratitude in your daily life?"
+        ]
+      }
+    ],
+    "Interview": [
+      {
+        "word": "teamwork",
+        "subtitle": "working together with others",
+        "prompts": [
+          "Do you prefer working alone or in a team?",
+          "Describe a time you helped a teammate.",
+          "What makes a good team player?",
+          "Have you ever had a conflict in a team?"
+        ]
+      },
+      {
+        "word": "punctual",
+        "subtitle": "being on time consistently",
+        "prompts": [
+          "Why is it important to be on time?",
+          "Are you usually early or late?",
+          "What do you do if you are running late?",
+          "How do you manage your time?"
+        ]
+      },
+      {
+        "word": "greeting",
+        "subtitle": "the way you say hello",
+        "prompts": [
+          "How do you introduce yourself to a stranger?",
+          "Is a handshake still important?",
+          "What is the first thing you say in an interview?",
+          "Does a smile matter when meeting someone new?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Calm in chaos",
+        "prompts": [
+          "What does mindfulness mean to you?",
+          "How do you practice mindfulness daily?",
+          "Can mindfulness improve mental health?",
+          "How can mindfulness be applied in the workplace?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Save the planet",
+        "prompts": [
+          "What are the benefits of sustainable living?",
+          "How can individuals contribute to sustainability?",
+          "What role do governments play in sustainability?",
+          "Can sustainable practices save the environment?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Walk in their shoes",
+        "prompts": [
+          "What is empathy and why is it important?",
+          "How can we practice empathy in our daily lives?",
+          "Can empathy resolve conflicts?",
+          "How does empathy impact our relationships?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bounce back strong",
+        "prompts": [
+          "What is resilience and how can we develop it?",
+          "How does resilience impact our mental health?",
+          "Can resilience be learned or is it innate?",
+          "How can we build resilience in the face of adversity?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Think outside the box",
+        "prompts": [
+          "What sparks creativity in individuals?",
+          "How can we cultivate creative thinking?",
+          "Can creativity be developed or is it innate?",
+          "How does creativity impact innovation?"
+        ]
+      },
+      {
+        "word": "Community",
+        "subtitle": "Together we thrive",
+        "prompts": [
+          "What is the importance of community in our lives?",
+          "How can we build stronger communities?",
+          "Can online communities replace in-person ones?",
+          "How does community impact our sense of belonging?"
+        ]
+      },
+      {
+        "word": "Growth",
+        "subtitle": "Evolve and thrive",
+        "prompts": [
+          "What does personal growth mean to you?",
+          "How can we set goals for personal growth?",
+          "Can challenges facilitate growth?",
+          "How does growth impact our self-awareness?"
+        ]
+      },
+      {
+        "word": "Technology",
+        "subtitle": "Innovate the future",
+        "prompts": [
+          "How has technology impacted our daily lives?",
+          "What are the benefits and drawbacks of emerging tech?",
+          "Can technology solve global problems?",
+          "How does technology influence our social interactions?"
+        ]
+      },
+      {
+        "word": "Diversity",
+        "subtitle": "Celebrate our differences",
+        "prompts": [
+          "What is the importance of diversity in society?",
+          "How can we promote diversity and inclusion?",
+          "Can diversity drive innovation?",
+          "How does diversity impact our cultural understanding?"
+        ]
+      },
+      {
+        "word": "Leadership",
+        "subtitle": "Inspire and motivate",
+        "prompts": [
+          "What makes a great leader?",
+          "How can we develop leadership skills?",
+          "Can leadership be learned or is it innate?",
+          "How does leadership impact organizational success?"
+        ]
+      }
+    ],
+    "Debate": [
+      {
+        "word": "uniforms",
+        "subtitle": "standard clothes for school or work",
+        "prompts": [
+          "Should students wear uniforms?",
+          "Do uniforms prevent bullying?",
+          "Do you like wearing a uniform?",
+          "Are uniforms too expensive?"
+        ]
+      },
+      {
+        "word": "homework",
+        "subtitle": "school work done at home",
+        "prompts": [
+          "Should teachers give homework?",
+          "Does homework help kids learn better?",
+          "How much time should homework take?",
+          "Should parents help with homework?"
+        ]
+      },
+      {
+        "word": "NASA",
+        "subtitle": "Space Exploration",
+        "prompts": [
+          "What sparks your interest in space travel?",
+          "How does NASA contribute to our understanding of the universe?",
+          "What are some challenges astronauts face in space?",
+          "How can space research improve life on Earth?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Inner Peace",
+        "prompts": [
+          "What does mindfulness mean to you?",
+          "How can mindfulness improve mental health?",
+          "What are some mindfulness practices for daily life?",
+          "Can mindfulness increase productivity?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Eco Friendly",
+        "prompts": [
+          "Why is sustainability important for our future?",
+          "How can individuals contribute to sustainable living?",
+          "What role do governments play in promoting sustainability?",
+          "Can technology help achieve sustainable goals?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Overcoming Adversity",
+        "prompts": [
+          "What does resilience mean to you?",
+          "How can you build resilience in the face of challenges?",
+          "What role does mental health play in resilience?",
+          "Can resilience be developed through practice?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Innovative Thinking",
+        "prompts": [
+          "What inspires your creative side?",
+          "How can creativity be applied to problem-solving?",
+          "What are some ways to cultivate creativity?",
+          "Can creativity be learned or is it innate?"
+        ]
+      },
+      {
+        "word": "Community",
+        "subtitle": "Social Connection",
+        "prompts": [
+          "What makes a strong community?",
+          "How can individuals contribute to their community?",
+          "What role does social media play in community building?",
+          "Can community involvement improve mental health?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Understanding Others",
+        "prompts": [
+          "What does empathy mean to you?",
+          "How can empathy improve relationships?",
+          "What are some ways to practice empathy?",
+          "Can empathy be developed through self-reflection?"
+        ]
+      },
+      {
+        "word": "Growth",
+        "subtitle": "Personal Development",
+        "prompts": [
+          "What does personal growth mean to you?",
+          "How can setting goals contribute to growth?",
+          "What role does self-awareness play in personal growth?",
+          "Can failure be a catalyst for growth?"
+        ]
+      },
+      {
+        "word": "Innovation",
+        "subtitle": "New Ideas",
+        "prompts": [
+          "What sparks innovation?",
+          "How can innovation be applied to real-world problems?",
+          "What role does experimentation play in innovation?",
+          "Can innovation be taught or is it innate?"
+        ]
+      },
+      {
+        "word": "Legacy",
+        "subtitle": "Lasting Impact",
+        "prompts": [
+          "What does leaving a legacy mean to you?",
+          "How can individuals make a lasting impact?",
+          "What role does integrity play in building a legacy?",
+          "Can a legacy be built through small, everyday actions?"
+        ]
+      }
+    ]
+  },
+  "medium": {
+    "General": [
+      {
+        "word": "resilience",
+        "subtitle": "the capacity to recover quickly",
+        "prompts": [
+          "Tell about a time you overcame a challenge.",
+          "Why is resilience important in life?",
+          "How can someone build more resilience?",
+          "Who is the most resilient person you know?"
+        ]
+      },
+      {
+        "word": "nostalgia",
+        "subtitle": "a sentimental longing for the past",
+        "prompts": [
+          "What makes you feel nostalgic?",
+          "Is nostalgia a good or bad emotion?",
+          "Describe a childhood memory you cherish.",
+          "Why do we miss the 'good old days'?"
+        ]
+      },
+      {
+        "word": "minimalism",
+        "subtitle": "living with only what you need",
+        "prompts": [
+          "Could you live with only 100 possessions?",
+          "Does having less stuff make you happier?",
+          "What is the hardest thing for you to throw away?",
+          "Is minimalism a trend or a lifestyle?"
+        ]
+      },
+      {
+        "word": "empathy",
+        "subtitle": "understanding others' feelings",
+        "prompts": [
+          "Can empathy be taught?",
+          "Is it possible to have too much empathy?",
+          "How does empathy improve relationships?",
+          "Describe a time someone showed you great empathy."
+        ]
+      },
+      {
+        "word": "curiosity",
+        "subtitle": "a strong desire to know or learn",
+        "prompts": [
+          "Did 'curiosity kill the cat' or save it?",
+          "What are you most curious about right now?",
+          "How can we keep curiosity alive as we age?",
+          "Is curiosity more important than intelligence?"
+        ]
+      },
+      {
+        "word": "Innovation",
+        "subtitle": "Disrupt the Status Quo",
+        "prompts": [
+          "What is the most innovative thing you've seen recently?",
+          "How can innovation be applied to everyday life?",
+          "What are some common obstacles to innovation?",
+          "Can innovation be learned or is it innate?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Save the Planet",
+        "prompts": [
+          "What does sustainability mean to you?",
+          "How can individuals make a significant impact on sustainability?",
+          "What are some common misconceptions about sustainability?",
+          "Can sustainability and profitability coexist?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Be Present",
+        "prompts": [
+          "What is mindfulness and how does it benefit us?",
+          "How can mindfulness be practiced in a busy world?",
+          "What are some common obstacles to mindfulness?",
+          "Can mindfulness improve mental health?"
+        ]
+      },
+      {
+        "word": "Community",
+        "subtitle": "Building Connections",
+        "prompts": [
+          "What does community mean to you?",
+          "How can we build stronger communities?",
+          "What are some benefits of being part of a community?",
+          "Can online communities replace in-person ones?"
+        ]
+      },
+      {
+        "word": "Diversity",
+        "subtitle": "Embracing Differences",
+        "prompts": [
+          "What does diversity mean to you?",
+          "How can we promote diversity and inclusion?",
+          "What are some benefits of diversity in the workplace?",
+          "Can diversity and unity coexist?"
+        ]
+      },
+      {
+        "word": "Technology",
+        "subtitle": "The Future is Now",
+        "prompts": [
+          "What are some recent technological advancements?",
+          "How will technology change our lives in the future?",
+          "What are some potential risks of relying on technology?",
+          "Can technology replace human connection?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Think Outside the Box",
+        "prompts": [
+          "What sparks creativity in you?",
+          "How can we cultivate creativity in our daily lives?",
+          "What are some common obstacles to creativity?",
+          "Can creativity be learned or is it innate?"
+        ]
+      },
+      {
+        "word": "Leadership",
+        "subtitle": "Inspiring Others",
+        "prompts": [
+          "What makes a great leader?",
+          "How can we develop leadership skills?",
+          "What are some common misconceptions about leadership?",
+          "Can leadership be learned or is it innate?"
+        ]
+      }
+    ],
+    "Tech": [
+      {
+        "word": "automation",
+        "subtitle": "processes performed by machines",
+        "prompts": [
+          "Will robots take all our jobs?",
+          "What is one thing you wish was automated?",
+          "How does automation help businesses?",
+          "Is automation making us lazy?"
+        ]
+      },
+      {
+        "word": "privacy",
+        "subtitle": "the state of being free from observation",
+        "prompts": [
+          "Is online privacy a myth today?",
+          "How do you protect your data?",
+          "Should the government monitor the internet?",
+          "Do you read privacy policies?"
+        ]
+      },
+      {
+        "word": "streaming",
+        "subtitle": "playing media over the internet",
+        "prompts": [
+          "Has streaming killed traditional cinema?",
+          "Do you prefer physical books or ebooks?",
+          "Is there too much content to choose from today?",
+          "Will we eventually 'own' nothing and subscribe to everything?"
+        ]
+      },
+      {
+        "word": "metaverse",
+        "subtitle": "a virtual reality space",
+        "prompts": [
+          "Would you want to live in a virtual world?",
+          "Is the metaverse the next step for social media?",
+          "What are the dangers of living in VR?",
+          "Can a virtual experience be as 'real' as a physical one?"
+        ]
+      },
+      {
+        "word": "Innovation",
+        "subtitle": "Transforming Ideas",
+        "prompts": [
+          "What does innovation mean to you?",
+          "Can you describe a time when innovation improved your life?",
+          "How can we foster a culture of innovation in our communities?",
+          "What role do you think innovation will play in shaping our future?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Eco-Friendly Future",
+        "prompts": [
+          "What are some simple changes we can make to live more sustainably?",
+          "How does sustainability impact local economies?",
+          "Can you share an example of a sustainable practice that has made a difference?",
+          "What role do individuals play in promoting sustainability globally?"
+        ]
+      },
+      {
+        "word": "Diversity",
+        "subtitle": "Celebrating Differences",
+        "prompts": [
+          "What does diversity mean to you, and why is it important?",
+          "Can you describe a time when you learned from someone from a different background?",
+          "How can we promote diversity and inclusion in our workplaces and schools?",
+          "What are some challenges to diversity, and how can we overcome them?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Overcoming Adversity",
+        "prompts": [
+          "What does resilience mean to you, and how have you developed it?",
+          "Can you share a story of a time when you faced adversity and overcame it?",
+          "How can we build resilience in the face of uncertainty?",
+          "What role do support systems play in helping us develop resilience?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Unleashing Imagination",
+        "prompts": [
+          "What sparks your creativity, and how do you nurture it?",
+          "Can you describe a creative project you've worked on and what you learned from it?",
+          "How can we encourage creativity in children and adults alike?",
+          "What are some benefits of incorporating creativity into our daily lives?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Understanding Others",
+        "prompts": [
+          "What does empathy mean to you, and why is it essential in our relationships?",
+          "Can you share a time when someone showed you empathy, and how it impacted you?",
+          "How can we practice empathy in our daily interactions?",
+          "What role does empathy play in breaking down social barriers?"
+        ]
+      },
+      {
+        "word": "Leadership",
+        "subtitle": "Inspiring Others",
+        "prompts": [
+          "What qualities do you think are essential for effective leadership?",
+          "Can you describe a leader who has inspired you, and what qualities they possess?",
+          "How can we develop our leadership skills, regardless of our position or role?",
+          "What are some common challenges leaders face, and how can they overcome them?"
+        ]
+      },
+      {
+        "word": "Communication",
+        "subtitle": "The Key to Connection",
+        "prompts": [
+          "What does effective communication mean to you, and why is it crucial?",
+          "Can you share a time when clear communication resolved a conflict or issue?",
+          "How can we improve our communication skills in both personal and professional settings?",
+          "What role does active listening play in effective communication?"
+        ]
+      },
+      {
+        "word": "Perseverance",
+        "subtitle": "Pushing Through Challenges",
+        "prompts": [
+          "What does perseverance mean to you, and how have you demonstrated it?",
+          "Can you describe a challenging situation where perseverance paid off?",
+          "How can we develop the habit of perseverance in the face of obstacles?",
+          "What role do setbacks play in the journey to success, and how can we learn from them?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Being Present",
+        "prompts": [
+          "What does mindfulness mean to you, and how do you practice it?",
+          "Can you share the benefits you've experienced from mindfulness practices?",
+          "How can mindfulness impact our mental and physical health?",
+          "What are some simple mindfulness exercises we can incorporate into our daily routines?"
+        ]
+      }
+    ],
+    "Finance": [
+      {
+        "word": "investment",
+        "subtitle": "allocating resources for profit",
+        "prompts": [
+          "What is the best type of investment?",
+          "Is investing better than saving?",
+          "When should someone start investing?",
+          "What are the risks of investing?"
+        ]
+      },
+      {
+        "word": "cryptocurrency",
+        "subtitle": "digital decentralized currency",
+        "prompts": [
+          "Is crypto the future of money?",
+          "Have you ever bought Bitcoin?",
+          "Why are people afraid of crypto?",
+          "Should crypto be regulated?"
+        ]
+      },
+      {
+        "word": "budgeting",
+        "subtitle": "planning how to spend money",
+        "prompts": [
+          "What is the 50/30/20 rule?",
+          "Why do most people fail at budgeting?",
+          "Is it better to track every cent or use broad categories?",
+          "How do you handle 'impulse' purchases?"
+        ]
+      },
+      {
+        "word": "credit",
+        "subtitle": "ability to obtain goods before payment",
+        "prompts": [
+          "Is debt always a bad thing?",
+          "How do credit scores affect your life?",
+          "What is the best way to use a credit card?",
+          "Should schools teach more about credit and debt?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bouncing back strong",
+        "prompts": [
+          "What is your most memorable comeback story?",
+          "How do you handle failure in your personal life?",
+          "Can you recall a time when you overcame a difficult obstacle?",
+          "What strategies do you use to maintain your mental toughness?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Saving the planet",
+        "prompts": [
+          "What are some simple changes you've made to reduce your carbon footprint?",
+          "How can individuals contribute to a more sustainable future?",
+          "What role do you think governments should play in promoting sustainability?",
+          "Can you discuss a successful sustainability initiative in your community?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Unleashing imagination",
+        "prompts": [
+          "What sparks your creative inspiration?",
+          "Can you describe a time when you had to think outside the box?",
+          "How do you stay creative in your daily life?",
+          "What role do you think creativity plays in problem-solving?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Walking in others' shoes",
+        "prompts": [
+          "Can you recall a time when someone showed you kindness and empathy?",
+          "How do you practice active listening in your relationships?",
+          "What are some ways to promote empathy in your community?",
+          "How can empathy be used to resolve conflicts?"
+        ]
+      },
+      {
+        "word": "Innovation",
+        "subtitle": "Disrupting the status quo",
+        "prompts": [
+          "What are some innovative solutions to real-world problems?",
+          "Can you describe a time when you had to adapt to new technology?",
+          "How do you stay ahead of the curve in your industry?",
+          "What role do you think innovation plays in driving economic growth?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Being present",
+        "prompts": [
+          "What are some mindfulness practices you incorporate into your daily routine?",
+          "Can you describe a time when you felt fully present in the moment?",
+          "How do you think mindfulness can improve mental health?",
+          "What are some ways to promote mindfulness in a busy world?"
+        ]
+      },
+      {
+        "word": "Diversity",
+        "subtitle": "Celebrating differences",
+        "prompts": [
+          "What are some benefits of having a diverse community?",
+          "Can you recall a time when you learned from someone with a different perspective?",
+          "How can we promote inclusivity in our daily lives?",
+          "What role do you think diversity plays in driving innovation?"
+        ]
+      },
+      {
+        "word": "Perseverance",
+        "subtitle": "Pushing through challenges",
+        "prompts": [
+          "Can you describe a time when you had to persevere through a difficult situation?",
+          "What are some strategies you use to stay motivated when faced with obstacles?",
+          "How do you think perseverance contributes to success?",
+          "What are some ways to develop perseverance in your personal life?"
+        ]
+      },
+      {
+        "word": "Authenticity",
+        "subtitle": "Being true to oneself",
+        "prompts": [
+          "What are some ways to stay authentic in a world of social media?",
+          "Can you recall a time when you felt pressure to conform?",
+          "How do you think authenticity contributes to building strong relationships?",
+          "What are some benefits of being your authentic self?"
+        ]
+      },
+      {
+        "word": "Gratitude",
+        "subtitle": "Appreciating the good things",
+        "prompts": [
+          "What are some things you're grateful for in your life?",
+          "Can you describe a time when someone showed you kindness and gratitude?",
+          "How do you think practicing gratitude can improve mental health?",
+          "What are some ways to cultivate gratitude in your daily life?"
+        ]
+      }
+    ],
+    "Interview": [
+      {
+        "word": "leadership",
+        "subtitle": "the action of leading a group",
+        "prompts": [
+          "What defines a great leader?",
+          "Describe a time you led a project.",
+          "Can leadership be learned?",
+          "Who is a leader you admire?"
+        ]
+      },
+      {
+        "word": "weakness",
+        "subtitle": "a disadvantageous quality",
+        "prompts": [
+          "How do you handle your weaknesses?",
+          "What is a skill you are currently improving?",
+          "Why do interviewers ask about weaknesses?",
+          "Can a weakness ever be a strength?"
+        ]
+      },
+      {
+        "word": "conflict",
+        "subtitle": "a serious disagreement",
+        "prompts": [
+          "How do you handle a difficult coworker?",
+          "Describe a time you solved a disagreement.",
+          "Is conflict ever productive in a team?",
+          "What is your 'go-to' strategy for resolution?"
+        ]
+      },
+      {
+        "word": "ambition",
+        "subtitle": "desire to achieve success",
+        "prompts": [
+          "Where do you see yourself in five years?",
+          "What drives you to succeed?",
+          "Is it possible to be too ambitious?",
+          "How do you define professional success?"
+        ]
+      },
+      {
+        "word": "Perseverance",
+        "subtitle": "Overcoming obstacles with grit",
+        "prompts": [
+          "What motivates you to keep going despite challenges?",
+          "Can you recall a time when you had to persevere?",
+          "How does perseverance impact personal growth?",
+          "What advice would you give to someone struggling to persevere?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Understanding others deeply",
+        "prompts": [
+          "How do you practice empathy in your daily life?",
+          "What are some common barriers to empathy?",
+          "Can you describe a time when someone showed you empathy?",
+          "Why is empathy essential in building strong relationships?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Being present in the moment",
+        "prompts": [
+          "What are some benefits of practicing mindfulness?",
+          "How can mindfulness improve mental health?",
+          "Can you describe a mindfulness practice you've found helpful?",
+          "How can mindfulness be applied in a busy lifestyle?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Unlocking innovative thinking",
+        "prompts": [
+          "What sparks your creative thinking?",
+          "Can you recall a creative project you're proud of?",
+          "How does creativity impact problem-solving?",
+          "What are some ways to cultivate creativity in daily life?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bouncing back from adversity",
+        "prompts": [
+          "What does resilience mean to you?",
+          "Can you describe a time when you had to be resilient?",
+          "How does resilience contribute to personal growth?",
+          "What strategies can help build resilience?"
+        ]
+      },
+      {
+        "word": "Curiosity",
+        "subtitle": "Embracing lifelong learning",
+        "prompts": [
+          "What topics are you currently curious about?",
+          "How does curiosity impact personal and professional growth?",
+          "Can you recall a time when curiosity led to a new discovery?",
+          "Why is curiosity essential in today's fast-paced world?"
+        ]
+      },
+      {
+        "word": "Authenticity",
+        "subtitle": "Being true to oneself",
+        "prompts": [
+          "What does authenticity mean to you?",
+          "Can you describe a time when you had to be authentic?",
+          "How does authenticity impact relationships?",
+          "What are some challenges to maintaining authenticity?"
+        ]
+      },
+      {
+        "word": "Gratitude",
+        "subtitle": "Focusing on the positive",
+        "prompts": [
+          "What are some things you're grateful for today?",
+          "How does practicing gratitude impact mental health?",
+          "Can you recall a time when gratitude shifted your perspective?",
+          "What are some ways to incorporate gratitude into daily life?"
+        ]
+      },
+      {
+        "word": "Self-awareness",
+        "subtitle": "Understanding oneself",
+        "prompts": [
+          "What does self-awareness mean to you?",
+          "Can you describe a time when self-awareness helped you grow?",
+          "How does self-awareness impact decision-making?",
+          "What are some practices to cultivate self-awareness?"
+        ]
+      },
+      {
+        "word": "Community",
+        "subtitle": "Building strong connections",
+        "prompts": [
+          "What does community mean to you?",
+          "Can you describe a community you feel connected to?",
+          "How does community impact personal well-being?",
+          "What are some ways to build and nurture community?"
+        ]
+      }
+    ],
+    "Debate": [
+      {
+        "word": "social media",
+        "subtitle": "platforms for networking",
+        "prompts": [
+          "Is social media hurting our mental health?",
+          "Should there be an age limit for social media?",
+          "Is 'Cancel Culture' helpful or harmful?",
+          "Does social media make us more lonely?"
+        ]
+      },
+      {
+        "word": "remote work",
+        "subtitle": "working from home",
+        "prompts": [
+          "Is the office dead?",
+          "Does remote work kill company culture?",
+          "Are people more productive at home?",
+          "Should pay be adjusted based on where you live?"
+        ]
+      },
+      {
+        "word": "voting",
+        "subtitle": "formal expression of choice",
+        "prompts": [
+          "Should voting be mandatory by law?",
+          "Should the voting age be lowered to 16?",
+          "Is online voting safe enough yet?",
+          "Does a single vote actually matter?"
+        ]
+      },
+      {
+        "word": "Nostalgia",
+        "subtitle": "Yearning for the past",
+        "prompts": [
+          "What is your favorite childhood memory?",
+          "How has nostalgia impacted your life?",
+          "Can nostalgia be a positive force?",
+          "How can we balance nostalgia with living in the present?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Preserving the planet",
+        "prompts": [
+          "What small changes can we make to live more sustainably?",
+          "How can individuals contribute to a global sustainability effort?",
+          "What are the benefits of sustainable living?",
+          "How can we balance economic growth with environmental concerns?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Walking in someone's shoes",
+        "prompts": [
+          "Can you recall a time when someone showed you empathy?",
+          "How can we cultivate empathy in our daily lives?",
+          "What role does empathy play in building strong relationships?",
+          "How can empathy be used to resolve conflicts?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bouncing back from adversity",
+        "prompts": [
+          "What is the most challenging obstacle you've faced?",
+          "How did you overcome it?",
+          "What strategies can we use to build resilience?",
+          "Can resilience be learned or is it innate?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Being present in the moment",
+        "prompts": [
+          "What are some benefits of practicing mindfulness?",
+          "How can mindfulness improve our mental health?",
+          "What are some simple mindfulness exercises we can try?",
+          "Can mindfulness be used to reduce stress?"
+        ]
+      },
+      {
+        "word": "Diversity",
+        "subtitle": "Celebrating our differences",
+        "prompts": [
+          "What does diversity mean to you?",
+          "How can we promote diversity in our communities?",
+          "What are the benefits of having a diverse group of friends?",
+          "How can we overcome our biases to appreciate diversity?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Thinking outside the box",
+        "prompts": [
+          "What sparks your creativity?",
+          "How can we cultivate creativity in our daily lives?",
+          "What are some benefits of creative thinking?",
+          "Can creativity be learned or is it innate?"
+        ]
+      },
+      {
+        "word": "Perseverance",
+        "subtitle": "Never giving up",
+        "prompts": [
+          "What is the most challenging goal you've ever pursued?",
+          "How did you stay motivated to achieve it?",
+          "What role does perseverance play in success?",
+          "How can we develop perseverance in the face of adversity?"
+        ]
+      },
+      {
+        "word": "Authenticity",
+        "subtitle": "Being true to oneself",
+        "prompts": [
+          "What does authenticity mean to you?",
+          "How can we stay true to ourselves in a world of expectations?",
+          "What are the benefits of being authentic?",
+          "Can authenticity be developed or is it innate?"
+        ]
+      },
+      {
+        "word": "Curiosity",
+        "subtitle": "Embracing the unknown",
+        "prompts": [
+          "What sparks your curiosity?",
+          "How can we cultivate curiosity in our daily lives?",
+          "What are the benefits of being curious?",
+          "How can curiosity lead to personal growth?"
+        ]
+      }
+    ]
+  },
+  "hard": {
+    "General": [
+      {
+        "word": "existentialism",
+        "subtitle": "the nature of human existence",
+        "prompts": [
+          "Do we create our own purpose in life?",
+          "Is the universe indifferent to humanity?",
+          "How does awareness of death affect how we live?",
+          "Is freedom a burden or a gift?"
+        ]
+      },
+      {
+        "word": "ephemeral",
+        "subtitle": "lasting for a very short time",
+        "prompts": [
+          "Why are the most beautiful things often ephemeral?",
+          "Does knowing something won't last make it more valuable?",
+          "Describe a brief moment that changed you.",
+          "Is anything truly permanent in the universe?"
+        ]
+      },
+      {
+        "word": "stoicism",
+        "subtitle": "endurance of pain without display of feelings",
+        "prompts": [
+          "Can we truly control our reactions to everything?",
+          "Is it healthy to suppress strong emotions?",
+          "How does stoicism help in a modern crisis?",
+          "What is the difference between being stoic and being cold?"
+        ]
+      },
+      {
+        "word": "paradox",
+        "subtitle": "a self-contradictory statement",
+        "prompts": [
+          "Which is the most fascinating paradox you know?",
+          "Can something be both true and false at once?",
+          "How do paradoxes challenge our logic?",
+          "Describe the 'ship of Theseus' and its meaning."
+        ]
+      },
+      {
+        "word": "altruism",
+        "subtitle": "selfless concern for others",
+        "prompts": [
+          "Is there such a thing as 'true' altruism?",
+          "Do we only help others to feel better about ourselves?",
+          "Should altruism be a requirement for leaders?",
+          "How do you balance self-care with self-sacrifice?"
+        ]
+      },
+      {
+        "word": "Innovation",
+        "subtitle": "Disrupting the status quo",
+        "prompts": [
+          "What inspires you to think outside the box?",
+          "How can innovation solve real-world problems?",
+          "Can you share a personal experience of innovative thinking?",
+          "What role does creativity play in driving innovation?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Walking in someone else's shoes",
+        "prompts": [
+          "How do you practice empathy in your daily life?",
+          "Can you recall a time when someone showed you empathy?",
+          "What are some ways to promote empathy in our communities?",
+          "How can empathy help resolve conflicts?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bouncing back from adversity",
+        "prompts": [
+          "What does resilience mean to you?",
+          "How have you developed resilience in the face of challenges?",
+          "Can you share a story of someone who inspires you with their resilience?",
+          "What role does self-care play in building resilience?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Saving the planet for future generations",
+        "prompts": [
+          "What small changes can we make to live more sustainably?",
+          "How can individuals contribute to a more sustainable future?",
+          "What are some examples of sustainable practices in your community?",
+          "How can technology help us achieve sustainability goals?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Being present in the moment",
+        "prompts": [
+          "What mindfulness practices do you incorporate into your daily routine?",
+          "How can mindfulness improve our mental health?",
+          "Can you describe a time when mindfulness helped you stay focused?",
+          "What are some benefits of mindfulness in the workplace?"
+        ]
+      },
+      {
+        "word": "Diversity",
+        "subtitle": "Celebrating our differences",
+        "prompts": [
+          "How can we promote diversity and inclusion in our communities?",
+          "What are some benefits of having a diverse social circle?",
+          "Can you share a personal experience of learning from someone from a different background?",
+          "How can we overcome biases and stereotypes?"
+        ]
+      },
+      {
+        "word": "Leadership",
+        "subtitle": "Inspiring others to take action",
+        "prompts": [
+          "What qualities do you think make a great leader?",
+          "Can you describe a leader who inspires you?",
+          "How can we develop our own leadership skills?",
+          "What role does empathy play in effective leadership?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Thinking outside the box",
+        "prompts": [
+          "How do you stay creative and inspired?",
+          "What are some ways to overcome creative blocks?",
+          "Can you share a personal experience of using creativity to solve a problem?",
+          "How can creativity be applied to real-world challenges?"
+        ]
+      },
+      {
+        "word": "Community",
+        "subtitle": "Building strong relationships",
+        "prompts": [
+          "What does community mean to you?",
+          "How can we build stronger, more supportive communities?",
+          "Can you describe a time when your community came together to support a cause?",
+          "What role does volunteering play in building community spirit?"
+        ]
+      },
+      {
+        "word": "Growth",
+        "subtitle": "Embracing lifelong learning",
+        "prompts": [
+          "What does personal growth mean to you?",
+          "How can we prioritize continuous learning and self-improvement?",
+          "Can you share a story of how you overcame a challenge to achieve growth?",
+          "What are some ways to stay motivated and focused on our goals?"
+        ]
+      }
+    ],
+    "Tech": [
+      {
+        "word": "singularity",
+        "subtitle": "when AI surpasses humans",
+        "prompts": [
+          "Is the technological singularity inevitable?",
+          "Should we fear an ASI (Super Intelligence)?",
+          "How will humanity coexist with super-AI?",
+          "Will the singularity be the end of history?"
+        ]
+      },
+      {
+        "word": "algorithm",
+        "subtitle": "complex rules followed by computers",
+        "prompts": [
+          "Are algorithms controlling our free will?",
+          "Should algorithms be held legally responsible?",
+          "How do algorithms shape our worldview?",
+          "Is 'algorithmic bias' the biggest threat in tech?"
+        ]
+      },
+      {
+        "word": "biotechnology",
+        "subtitle": "exploitation of biological processes",
+        "prompts": [
+          "Should we edit the human genome to remove disease?",
+          "Will biotech create a 'super-human' class?",
+          "What are the ethical limits of life-extension?",
+          "Can we 'hack' our own evolution?"
+        ]
+      },
+      {
+        "word": "blockchain",
+        "subtitle": "decentralized digital ledger",
+        "prompts": [
+          "Can blockchain truly eliminate the 'middleman'?",
+          "Is decentralization always better than trust?",
+          "Beyond money, what is the best use for blockchain?",
+          "Is the environmental cost of mining too high?"
+        ]
+      },
+      {
+        "word": "Innovation",
+        "subtitle": "Disrupting the status quo",
+        "prompts": [
+          "What inspires you to think outside the box?",
+          "How can innovation solve real-world problems?",
+          "Can you share an example of innovative thinking?",
+          "How does innovation impact your daily life?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Cultivating inner peace",
+        "prompts": [
+          "What mindfulness practices do you incorporate daily?",
+          "How does mindfulness affect mental health?",
+          "Can you describe a mindful moment from your life?",
+          "How can mindfulness improve relationships?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Preserving our planet",
+        "prompts": [
+          "What eco-friendly habits have you adopted recently?",
+          "How can individuals contribute to sustainability?",
+          "Can you discuss the impact of single-use plastics?",
+          "What role does sustainability play in your purchasing decisions?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bouncing back from adversity",
+        "prompts": [
+          "What strategies help you cope with difficult situations?",
+          "How does resilience influence mental toughness?",
+          "Can you share a story of overcoming a challenge?",
+          "What advice would you give to someone struggling with resilience?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Understanding different perspectives",
+        "prompts": [
+          "How do you practice active listening?",
+          "Can you describe a time when empathy helped resolve a conflict?",
+          "What role does empathy play in building strong relationships?",
+          "How can empathy be developed in ourselves and others?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Unleashing imagination",
+        "prompts": [
+          "What sparks your creative thinking?",
+          "How does creativity impact problem-solving?",
+          "Can you share a creative project you've worked on?",
+          "What advice would you give to someone looking to boost their creativity?"
+        ]
+      },
+      {
+        "word": "Authenticity",
+        "subtitle": "Being true to oneself",
+        "prompts": [
+          "What does authenticity mean to you?",
+          "Can you describe a time when you had to be authentic?",
+          "How does authenticity influence self-confidence?",
+          "What role does social media play in shaping authenticity?"
+        ]
+      },
+      {
+        "word": "Gratitude",
+        "subtitle": "Focusing on the positive",
+        "prompts": [
+          "What are you grateful for today?",
+          "How does practicing gratitude improve mental health?",
+          "Can you share a story of gratitude from your life?",
+          "What strategies help you cultivate a grateful mindset?"
+        ]
+      },
+      {
+        "word": "Courage",
+        "subtitle": "Facing fears and challenges",
+        "prompts": [
+          "What does courage mean to you?",
+          "Can you describe a courageous act from your life?",
+          "How does courage impact personal growth?",
+          "What advice would you give to someone struggling to find courage?"
+        ]
+      },
+      {
+        "word": "Community",
+        "subtitle": "Building strong connections",
+        "prompts": [
+          "What does community mean to you?",
+          "Can you describe a sense of community you've experienced?",
+          "How does community impact mental health?",
+          "What role does technology play in shaping community?"
+        ]
+      }
+    ],
+    "Finance": [
+      {
+        "word": "decentralization",
+        "subtitle": "distribution of power away from a center",
+        "prompts": [
+          "Can decentralized finance replace big banks?",
+          "Is total decentralization even possible?",
+          "How does decentralization improve security?",
+          "What are the social impacts of decentralized systems?"
+        ]
+      },
+      {
+        "word": "hyperinflation",
+        "subtitle": "rapid, out-of-control price increases",
+        "prompts": [
+          "What causes a currency to collapse?",
+          "How does hyperinflation destroy a society?",
+          "Can any modern economy be truly safe from it?",
+          "How would you survive a currency collapse?"
+        ]
+      },
+      {
+        "word": "fiat currency",
+        "subtitle": "money not backed by a commodity",
+        "prompts": [
+          "Is the global economy built on a 'house of cards'?",
+          "What happens if people lose faith in the Dollar?",
+          "Should we return to the Gold Standard?",
+          "Why is debt essential to the modern financial system?"
+        ]
+      },
+      {
+        "word": "capitalism",
+        "subtitle": "system based on private ownership",
+        "prompts": [
+          "Has capitalism reached its limits?",
+          "Can capitalism solve the climate crisis?",
+          "Is 'infinite growth' possible on a finite planet?",
+          "What would a post-capitalist world look like?"
+        ]
+      },
+      {
+        "word": "Empathy",
+        "subtitle": "Understanding hearts",
+        "prompts": [
+          "What does empathy mean to you?",
+          "How do you show empathy to others?",
+          "Can you recall a time when someone showed empathy towards you?",
+          "Why is empathy essential in our daily lives?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bouncing back strong",
+        "prompts": [
+          "What does resilience mean to you?",
+          "How do you build resilience in your life?",
+          "Can you share a story of overcoming a difficult situation?",
+          "What advice would you give to someone struggling to bounce back?"
+        ]
+      },
+      {
+        "word": "Curiosity",
+        "subtitle": "Asking the right questions",
+        "prompts": [
+          "What sparks your curiosity?",
+          "How do you stay curious in a world of information overload?",
+          "Can you recall a time when curiosity led you to a new discovery?",
+          "Why is curiosity important for personal growth?"
+        ]
+      },
+      {
+        "word": "Authenticity",
+        "subtitle": "Being true to oneself",
+        "prompts": [
+          "What does authenticity mean to you?",
+          "How do you stay authentic in a world of societal pressure?",
+          "Can you share a story of embracing your true self?",
+          "Why is authenticity essential for building strong relationships?"
+        ]
+      },
+      {
+        "word": "Mindfulness",
+        "subtitle": "Living in the present",
+        "prompts": [
+          "What does mindfulness mean to you?",
+          "How do you practice mindfulness in your daily life?",
+          "Can you recall a time when mindfulness helped you stay calm?",
+          "Why is mindfulness important for mental well-being?"
+        ]
+      },
+      {
+        "word": "Creativity",
+        "subtitle": "Thinking outside the box",
+        "prompts": [
+          "What sparks your creativity?",
+          "How do you stay creative in a world of routine?",
+          "Can you share a story of a creative project you worked on?",
+          "Why is creativity important for innovation?"
+        ]
+      },
+      {
+        "word": "Perseverance",
+        "subtitle": "Never giving up",
+        "prompts": [
+          "What does perseverance mean to you?",
+          "How do you stay motivated when faced with obstacles?",
+          "Can you recall a time when perseverance paid off?",
+          "Why is perseverance essential for achieving goals?"
+        ]
+      },
+      {
+        "word": "Self-awareness",
+        "subtitle": "Understanding oneself",
+        "prompts": [
+          "What does self-awareness mean to you?",
+          "How do you practice self-awareness in your daily life?",
+          "Can you share a story of a self-awareness moment?",
+          "Why is self-awareness important for personal growth?"
+        ]
+      },
+      {
+        "word": "Gratitude",
+        "subtitle": "Appreciating the good",
+        "prompts": [
+          "What are you grateful for today?",
+          "How do you practice gratitude in your daily life?",
+          "Can you recall a time when gratitude shifted your perspective?",
+          "Why is gratitude important for mental well-being?"
+        ]
+      },
+      {
+        "word": "Communication",
+        "subtitle": "Connecting with others",
+        "prompts": [
+          "What does effective communication mean to you?",
+          "How do you ensure clear communication in your relationships?",
+          "Can you share a story of a successful communication experience?",
+          "Why is communication essential for building strong relationships?"
+        ]
+      }
+    ],
+    "Interview": [
+      {
+        "word": "innovation",
+        "subtitle": "the introduction of something new",
+        "prompts": [
+          "How do you balance innovation with stability?",
+          "Describe your most innovative solution to a problem.",
+          "Why do many companies fail at innovation?",
+          "Is innovation more about luck or process?"
+        ]
+      },
+      {
+        "word": "integrity",
+        "subtitle": "the quality of being honest",
+        "prompts": [
+          "Describe a time you chose integrity over profit.",
+          "Can a business survive with 'perfect' integrity?",
+          "How do you handle an unethical request from a boss?",
+          "Is integrity the most important trait in a leader?"
+        ]
+      },
+      {
+        "word": "vision",
+        "subtitle": "ability to think about the future with wisdom",
+        "prompts": [
+          "How do you translate a big vision into daily tasks?",
+          "Who is a visionary you find inspiring?",
+          "What is your personal vision for your career?",
+          "Can a company survive without a visionary leader?"
+        ]
+      },
+      {
+        "word": "Space",
+        "subtitle": "The Final Frontier",
+        "prompts": [
+          "What are the most significant space discoveries?",
+          "How will space travel change in the next decade?",
+          "What are the benefits of space exploration?",
+          "Should space colonization be a priority?"
+        ]
+      },
+      {
+        "word": "Sustainability",
+        "subtitle": "Save The Planet",
+        "prompts": [
+          "What are the simplest ways to live sustainably?",
+          "How can individuals make a significant environmental impact?",
+          "What role do governments play in sustainability?",
+          "Can technology help achieve sustainability goals?"
+        ]
+      },
+      {
+        "word": "Artificial Intelligence",
+        "subtitle": "The Future Is Now",
+        "prompts": [
+          "How will AI change the job market?",
+          "What are the benefits of AI in healthcare?",
+          "Can AI be creative?",
+          "Should AI development be regulated?"
+        ]
+      },
+      {
+        "word": "Climate Change",
+        "subtitle": "The Clock Is Ticking",
+        "prompts": [
+          "What are the most pressing climate change issues?",
+          "How can individuals reduce their carbon footprint?",
+          "What role do governments play in addressing climate change?",
+          "Can climate change be reversed?"
+        ]
+      },
+      {
+        "word": "Mental Health",
+        "subtitle": "Break The Silence",
+        "prompts": [
+          "What are the most common mental health issues?",
+          "How can we reduce stigma around mental health?",
+          "What role do social media platforms play in mental health?",
+          "Can mindfulness improve mental wellbeing?"
+        ]
+      },
+      {
+        "word": "Diversity",
+        "subtitle": "Embracing Differences",
+        "prompts": [
+          "What are the benefits of a diverse community?",
+          "How can we promote diversity in the workplace?",
+          "What role do cultural differences play in shaping our identities?",
+          "Can diversity be a strength in times of crisis?"
+        ]
+      },
+      {
+        "word": "Education",
+        "subtitle": "Empowering Minds",
+        "prompts": [
+          "What are the most effective learning methods?",
+          "How can we make education more accessible?",
+          "What role do teachers play in shaping young minds?",
+          "Can online learning replace traditional education?"
+        ]
+      },
+      {
+        "word": "Community",
+        "subtitle": "Building Connections",
+        "prompts": [
+          "What are the benefits of a strong community?",
+          "How can we build a sense of community online?",
+          "What role do volunteers play in community development?",
+          "Can community engagement improve mental health?"
+        ]
+      },
+      {
+        "word": "Resilience",
+        "subtitle": "Bouncing Back",
+        "prompts": [
+          "What are the key characteristics of a resilient person?",
+          "How can we develop resilience in the face of adversity?",
+          "What role do support systems play in building resilience?",
+          "Can resilience be learned?"
+        ]
+      }
+    ],
+    "Debate": [
+      {
+        "word": "genetic editing",
+        "subtitle": "changing DNA characteristics",
+        "prompts": [
+          "Is it ethical to create 'designer babies'?",
+          "Should we use CRISPR to end all diseases?",
+          "Who should decide the limits of genetic editing?",
+          "Will genetic editing create a new class divide?"
+        ]
+      },
+      {
+        "word": "universal basic income",
+        "subtitle": "regular cash payment to all citizens",
+        "prompts": [
+          "Does UBI make people lazy or more creative?",
+          "How would we fund a global UBI system?",
+          "Is UBI the answer to AI-driven job loss?",
+          "Should UBI be based on need or be universal?"
+        ]
+      },
+      {
+        "word": "censorship",
+        "subtitle": "suppression of speech or public communication",
+        "prompts": [
+          "Is there such a thing as 'good' censorship?",
+          "Who should have the power to 'fact check' the world?",
+          "Does censorship prevent harm or just hide it?",
+          "Is the 'marketplace of ideas' still valid today?"
+        ]
+      },
+      {
+        "word": "Space Exploration",
+        "subtitle": "Reaching New Heights",
+        "prompts": [
+          "What sparked your interest in space?",
+          "How does space travel impact society?",
+          "What are the benefits of exploring Mars?",
+          "Will humans colonize another planet?"
+        ]
+      },
+      {
+        "word": "Artificial Intelligence",
+        "subtitle": "The Future is Here",
+        "prompts": [
+          "How does AI affect your daily life?",
+          "What are the benefits of AI in healthcare?",
+          "Can AI replace human intelligence?",
+          "Should AI be regulated by governments?"
+        ]
+      },
+      {
+        "word": "Climate Change",
+        "subtitle": "Act Now",
+        "prompts": [
+          "What causes climate change?",
+          "How can individuals contribute to sustainability?",
+          "What role do governments play in mitigating climate change?",
+          "Can technology solve the climate crisis?"
+        ]
+      },
+      {
+        "word": "Mental Health",
+        "subtitle": "Break the Silence",
+        "prompts": [
+          "How does social media impact mental health?",
+          "What are the signs of mental illness?",
+          "How can we reduce stigma around mental health?",
+          "What role does self-care play in mental wellness?"
+        ]
+      },
+      {
+        "word": "Renewable Energy",
+        "subtitle": "Sustainable Tomorrow",
+        "prompts": [
+          "What are the benefits of renewable energy?",
+          "How can we transition to renewable energy sources?",
+          "What are the challenges of implementing renewable energy?",
+          "Can renewable energy meet global demand?"
+        ]
+      },
+      {
+        "word": "Social Justice",
+        "subtitle": "Equality for All",
+        "prompts": [
+          "What does social justice mean to you?",
+          "How can we address systemic inequality?",
+          "What role do individuals play in creating social change?",
+          "How can we promote inclusivity in our communities?"
+        ]
+      },
+      {
+        "word": "Personal Growth",
+        "subtitle": "Evolve Every Day",
+        "prompts": [
+          "What are your goals for personal growth?",
+          "How can you develop a growth mindset?",
+          "What role does self-reflection play in personal growth?",
+          "How can you overcome obstacles to achieve your goals?"
+        ]
+      },
+      {
+        "word": "Food Security",
+        "subtitle": "Nourishing the Future",
+        "prompts": [
+          "What are the causes of food insecurity?",
+          "How can we address food waste?",
+          "What role do sustainable agriculture practices play in food security?",
+          "How can we ensure equitable access to nutritious food?"
+        ]
+      },
+      {
+        "word": "Cultural Diversity",
+        "subtitle": "Celebrate Our Differences",
+        "prompts": [
+          "What are the benefits of cultural diversity?",
+          "How can we promote cross-cultural understanding?",
+          "What role do cultural traditions play in shaping identity?",
+          "How can we address cultural appropriation?"
+        ]
+      },
+      {
+        "word": "Community Engagement",
+        "subtitle": "Make a Difference",
+        "prompts": [
+          "What are the benefits of community service?",
+          "How can individuals get involved in their communities?",
+          "What role do community organizations play in social change?",
+          "How can we build stronger, more resilient communities?"
+        ]
+      }
+    ]
+  }
+}
