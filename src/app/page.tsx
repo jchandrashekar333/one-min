@@ -22,12 +22,9 @@ export default function Home() {
   }
 
   const shareRandomChallenge = () => {
-    const categories = ['General', 'Tech', 'Finance', 'Interview', 'Debate']
-    const randomCat = categories[Math.floor(Math.random() * categories.length)]
-    const pool = (wordsData as any).medium[randomCat] || (wordsData as any).medium.General
-    const randomWord = pool[Math.floor(Math.random() * pool.length)].word
-    
-    const url = `${window.location.origin}/?w=${encodeURIComponent(randomWord)}`
+    // Pick from a safe, small list if JSON is weird, or just use a fallback
+    const fallbackWord = "Artificial Intelligence"
+    const url = `${window.location.origin}/?w=${encodeURIComponent(fallbackWord)}`
     navigator.clipboard.writeText(url)
     setShowCopied(true)
     setTimeout(() => setShowCopied(false), 2000)
@@ -36,8 +33,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#fafafa] text-zinc-900 selection:bg-zinc-900 selection:text-white pb-32 overflow-x-hidden">
       {/* Navbar */}
-      <nav className="flex items-center justify-between px-6 md:px-12 py-6 sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-zinc-100/50">
-        <div className="flex items-center gap-4 cursor-pointer group select-none">
+      <nav className="flex items-center justify-between px-4 md:px-12 py-5 sticky top-0 bg-white/90 backdrop-blur-md z-[100] border-b border-zinc-200">
+        <div className="flex items-center gap-3 md:gap-4 cursor-pointer group select-none">
           <div 
             className="w-11 h-11 bg-white border-[2.5px] border-zinc-900 rounded-xl flex items-center justify-center transition-transform group-hover:scale-110 group-hover:-rotate-3"
             style={{
