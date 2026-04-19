@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState, useEffect, useRef } from 'react'
+import { useSearchParams } from 'next/navigation'
 import confetti from 'canvas-confetti'
 import wordsData from '@/data/words.json'
 
@@ -73,7 +74,19 @@ export default function MysteryWord({
   const [timeRemaining, setTimeRemaining] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
   const [spinCount, setSpinCount] = useState(0)
+  const [showCopied, setShowCopied] = useState(false)
   const seenWordsRef = useRef<string[]>([])
+
+  const searchParams = useSearchParams();
+
+  const copyChallenge = () => {
+    if (!wordData) return;
+    const url = `${window.location.origin}${window.location.pathname}?w=${encodeURIComponent(wordData.word)}`;
+    navigator.clipboard.writeText(url);
+    setShowCopied(true);
+    setTimeout(() => setShowCopied(false), 2000);
+    playSound('click');
+  };
 
   // Load word from local pool
   useEffect(() => {
@@ -87,16 +100,37 @@ export default function MysteryWord({
       const difficultyPool = (wordsData as any)[difficulty] || (wordsData as any)["medium"];
       const categoryPool: WordData[] = difficultyPool[category] || difficultyPool["General"];
 
-      const historyArray = JSON.parse(localStorage.getItem('omc_word_history') || '[]');
-      const historyList = historyArray.map((item: any) => item.word);
+      // Check for a CHALLENGE word in the URL first
+      const challengedWord = searchParams.get('w');
+      let selection: WordData | undefined;
 
-      let available = categoryPool.filter(w =>
-        !historyList.includes(w.word) &&
-        !seenWordsRef.current.includes(w.word)
-      );
+      if (challengedWord && spinCount === 0) {
+        // Find the word in the pool
+        selection = categoryPool.find(w => w.word.toLowerCase() === challengedWord.toLowerCase());
+        if (!selection) {
+          // Check all categories if not in current one
+          for (const d of ['easy', 'medium', 'hard']) {
+            for (const cat in (wordsData as any)[d]) {
+              const found = (wordsData as any)[d][cat].find((w: any) => w.word.toLowerCase() === challengedWord.toLowerCase());
+              if (found) { selection = found; break; }
+            }
+            if (selection) break;
+          }
+        }
+      }
 
-      if (available.length === 0) available = categoryPool;
-      const selection = available[Math.floor(Math.random() * available.length)];
+      if (!selection) {
+        const historyArray = JSON.parse(localStorage.getItem('omc_word_history') || '[]');
+        const historyList = historyArray.map((item: any) => item.word);
+
+        let available = categoryPool.filter(w =>
+          !historyList.includes(w.word) &&
+          !seenWordsRef.current.includes(w.word)
+        );
+
+        if (available.length === 0) available = categoryPool;
+        selection = available[Math.floor(Math.random() * available.length)];
+      }
 
       if (!cancelled) {
         if (selection) seenWordsRef.current.push(selection.word);
@@ -104,9 +138,9 @@ export default function MysteryWord({
         setIsLoading(false);
       }
     }
-    loadWord()
+    loadWord();
     return () => { cancelled = true }
-  }, [difficulty, category, dayNumber, spinCount])
+  }, [difficulty, category, spinCount, dayNumber, searchParams]);
 
   useEffect(() => {
     if (gameState === 'countdown') {
@@ -228,7 +262,7 @@ export default function MysteryWord({
 
             <div className="flex-1 flex flex-col items-center justify-center w-full gap-8">
               <div className={`transition-all duration-700 ${gameState === 'hidden' || gameState === 'countdown' ? 'blur-2xl opacity-10 scale-90' : 'blur-0 opacity-100 scale-100'}`}>
-                  <div className="flex flex-col items-center justify-center gap-6 mb-2">
+                <div className="flex flex-col items-center justify-center gap-6 mb-2">
                   <h1 className="text-6xl font-extrabold tracking-tighter text-zinc-900 leading-none">{wordData.word}</h1>
                   {(gameState === 'reveal' || gameState === 'speaking' || gameState === 'done') && (
                     <button onClick={speakWord} className="w-12 h-12 flex items-center justify-center bg-zinc-50 border border-zinc-200 rounded-full text-zinc-400 hover:text-zinc-900 hover:bg-white transition-all shadow-sm active:scale-90 flex-shrink-0 animate-in fade-in zoom-in duration-700">
@@ -334,6 +368,9 @@ export default function MysteryWord({
                 <div className="flex w-full gap-4 items-center mt-2">
                   <button onClick={() => { playSound('click'); setSpinCount(s => s + 1); }} className="flex-shrink-0 px-8 py-[1.125rem] bg-zinc-900 text-white rounded-full font-bold text-lg tracking-wide hover:bg-zinc-800 transition-all shadow-md active:scale-95 flex items-center justify-center gap-2.5"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" /></svg>Refresh</button>
                   <button onClick={() => { playSound('click'); startSpeaking(); }} className="flex-1 py-[1.125rem] bg-transparent border-[2.5px] border-zinc-900 text-zinc-900 rounded-full font-bold text-lg tracking-wide hover:bg-zinc-900 hover:text-white transition-all shadow-sm active:scale-95 flex items-center justify-center gap-2">Start Timer &rarr;</button>
+                  <button onClick={copyChallenge} className="flex-shrink-0 px-6 py-[1.125rem] bg-white border-[2.5px] border-zinc-900 text-zinc-900 rounded-full font-bold text-lg hover:bg-zinc-100 transition-all shadow-sm active:scale-95 flex items-center justify-center gap-2 relative">
+                    {showCopied ? <span className="text-green-600">Copied!</span> : <><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>Challenge</>}
+                  </button>
                 </div>
               )}
 
