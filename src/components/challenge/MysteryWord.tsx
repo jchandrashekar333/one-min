@@ -299,12 +299,12 @@ export default function MysteryWord({
             <div className="relative w-48 h-48">
               <svg className="w-full h-full -rotate-90">
                 <circle cx="96" cy="96" r="84" className="stroke-zinc-100 fill-none stroke-[10]" />
-                <circle cx="96" cy="96" r="84" className={`fill-none stroke-[10] transition-all duration-1000 \${gameState === 'speaking' ? (timeRemaining <= 5 ? 'stroke-red-500' : 'stroke-zinc-900') : 'stroke-zinc-300'}`} strokeDasharray="528" strokeDashoffset={gameState === 'speaking' ? 528 * (1 - timeRemaining / sessionTime) : 0} strokeLinecap="round" />
+                <circle cx="96" cy="96" r="84" className={`fill-none stroke-[10] transition-all duration-1000 ${gameState === 'speaking' ? (timeRemaining <= 5 ? 'stroke-red-500' : 'stroke-zinc-900') : 'stroke-zinc-300'}`} strokeDasharray="528" strokeDashoffset={gameState === 'speaking' ? 528 * (1 - timeRemaining / sessionTime) : 0} strokeLinecap="round" />
               </svg>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <div className="flex items-baseline gap-1">
-                  <span className={`text-[4.5rem] font-extrabold tabular-nums tracking-tighter leading-none transition-colors duration-500 \${gameState === 'speaking' ? (timeRemaining <= 5 ? 'text-red-500 animate-pulse' : 'text-zinc-900') : 'text-zinc-200'}`}>{gameState === 'speaking' ? (Math.floor(timeRemaining / 60) > 0 ? `\${Math.floor(timeRemaining / 60)}:\${(timeRemaining % 60).toString().padStart(2, '0')}` : (timeRemaining % 60).toString().padStart(2, '0')) : sessionTime >= 60 ? sessionTime / 60 : sessionTime}</span>
-                  <span className={`text-xl font-bold \${gameState === 'speaking' ? 'opacity-0' : 'text-zinc-300'}`}>m</span>
+                  <span className={`text-[4.5rem] font-extrabold tabular-nums tracking-tighter leading-none transition-colors duration-500 ${gameState === 'speaking' ? (timeRemaining <= 5 ? 'text-red-500 animate-pulse' : 'text-zinc-900') : 'text-zinc-200'}`}>{gameState === 'speaking' ? (Math.floor(timeRemaining / 60) > 0 ? `${Math.floor(timeRemaining / 60)}:${(timeRemaining % 60).toString().padStart(2, '0')}` : (timeRemaining % 60).toString().padStart(2, '0')) : sessionTime >= 60 ? sessionTime / 60 : sessionTime}</span>
+                  <span className={`text-xl font-bold ${gameState === 'speaking' ? 'opacity-0' : 'text-zinc-300'}`}>m</span>
                 </div>
               </div>
               {gameState === 'speaking' && (
