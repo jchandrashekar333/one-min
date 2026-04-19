@@ -10,10 +10,8 @@
     "expand-pool": "node scripts/expand-pool.mjs"
   },
   "dependencies": {
-    "@clerk/nextjs": "^7.2.2",
     "canvas-confetti": "^1.9.4",
     "groq-sdk": "^1.1.2",
-    "lightningcss-win32-x64-msvc": "^1.32.0",
     "next": "16.2.3",
     "react": "19.2.4",
     "react-dom": "19.2.4"
