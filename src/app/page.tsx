@@ -71,7 +71,7 @@ export default function Home() {
 
         <button 
           onClick={shareRandomChallenge}
-          className="hidden md:flex items-center gap-2 px-6 py-2.5 bg-zinc-900 text-white rounded-full font-bold text-sm tracking-tight hover:bg-zinc-800 transition-all active:scale-95 shadow-lg"
+          className="flex items-center gap-1.5 md:gap-2 px-4 md:px-6 py-2 md:py-2.5 bg-zinc-900 text-white rounded-full font-bold text-[11px] md:text-sm tracking-tight hover:bg-zinc-800 transition-all active:scale-95 shadow-lg"
         >
           {showCopied ? (
             <span className="flex items-center gap-2">
