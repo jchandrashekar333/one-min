@@ -84,7 +84,7 @@ export default function MysteryWord({
       // Keep a small delay so the branded mascot/loader can be seen
       await new Promise(resolve => setTimeout(resolve, 1200));
 
-      const difficultyPool = (wordsData as any)[difficulty];
+      const difficultyPool = (wordsData as any)[difficulty] || (wordsData as any)["medium"];
       const categoryPool: WordData[] = difficultyPool[category] || difficultyPool["General"];
 
       const historyArray = JSON.parse(localStorage.getItem('omc_word_history') || '[]');
@@ -228,7 +228,7 @@ export default function MysteryWord({
 
             <div className="flex-1 flex flex-col items-center justify-center w-full gap-8">
               <div className={`transition-all duration-700 ${gameState === 'hidden' || gameState === 'countdown' ? 'blur-2xl opacity-10 scale-90' : 'blur-0 opacity-100 scale-100'}`}>
-                <div className="flex flex-col items-center justify-center gap-6 mb-2">
+                  <div className="flex flex-col items-center justify-center gap-6 mb-2">
                   <h1 className="text-6xl font-extrabold tracking-tighter text-zinc-900 leading-none">{wordData.word}</h1>
                   {(gameState === 'reveal' || gameState === 'speaking' || gameState === 'done') && (
                     <button onClick={speakWord} className="w-12 h-12 flex items-center justify-center bg-zinc-50 border border-zinc-200 rounded-full text-zinc-400 hover:text-zinc-900 hover:bg-white transition-all shadow-sm active:scale-90 flex-shrink-0 animate-in fade-in zoom-in duration-700">
