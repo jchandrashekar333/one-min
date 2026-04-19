@@ -170,10 +170,68 @@ export default function MysteryWord({
   }, [gameState, timeRemaining, isPaused])
 
   const startReveal = () => { setCountdown(3); setGameState('countdown') }
-  const startSpeaking = () => { setIsPaused(false); setTimeRemaining(sessionTime); setGameState('speaking') }
 
-  const togglePause = () => { playSound('click'); setIsPaused(!isPaused); };
-  const resetTimer = () => { playSound('click'); setIsPaused(false); setGameState('reveal'); setTimeRemaining(0); };
+  const [audioUrl, setAudioUrl] = useState<string | null>(null)
+  const mediaRecorderRef = useRef<MediaRecorder | null>(null)
+  const audioChunksRef = useRef<Blob[]>([])
+
+  const startRecording = async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const mediaRecorder = new MediaRecorder(stream);
+      mediaRecorderRef.current = mediaRecorder;
+      audioChunksRef.current = [];
+
+      mediaRecorder.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          audioChunksRef.current.push(event.data);
+        }
+      };
+
+      mediaRecorder.onstop = () => {
+        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/wav' });
+        const url = URL.createObjectURL(audioBlob);
+        setAudioUrl(url);
+        // Stop all tracks to turn off the mic light
+        stream.getTracks().forEach(track => track.stop());
+      };
+
+      mediaRecorder.start();
+    } catch (err) {
+      console.error("Error accessing microphone:", err);
+    }
+  };
+
+  const stopRecording = () => {
+    if (mediaRecorderRef.current && mediaRecorderRef.current.state === 'recording') {
+      mediaRecorderRef.current.stop();
+    }
+  };
+
+  const startSpeaking = () => { 
+    setIsPaused(false); 
+    setTimeRemaining(sessionTime); 
+    setGameState('speaking');
+    setAudioUrl(null);
+    startRecording();
+  }
+
+  const togglePause = () => { 
+    playSound('click'); 
+    setIsPaused(!isPaused);
+    if (mediaRecorderRef.current) {
+      if (isPaused) mediaRecorderRef.current.resume();
+      else mediaRecorderRef.current.pause();
+    }
+  };
+
+  const resetTimer = () => { 
+    playSound('click'); 
+    setIsPaused(false); 
+    setGameState('reveal'); 
+    setTimeRemaining(0); 
+    stopRecording();
+  };
 
   const speakWord = () => {
     if (!wordData?.word) return;
@@ -185,6 +243,7 @@ export default function MysteryWord({
 
   const handleDone = () => {
     setGameState('done')
+    stopRecording();
     confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 }, colors: ['#000000', '#DEDEDE', '#808080'] })
     onComplete()
   }
@@ -375,7 +434,21 @@ export default function MysteryWord({
               )}
 
               {gameState === 'done' && (
-                <button onClick={() => { playSound('click'); handleAgain(); }} className="w-full py-5 bg-zinc-900 text-white rounded-2xl font-bold text-sm tracking-wider hover:bg-zinc-800 transition-all shadow-lg flex items-center justify-center gap-3"><span>✦</span> Practice Another Word</button>
+                <div className="flex flex-col gap-4 w-full">
+                  {audioUrl && (
+                    <div className="bg-zinc-50 border-2 border-zinc-900 p-6 rounded-2xl flex flex-col gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
+                      <div className="flex items-center justify-between">
+                        <span className="text-[10px] font-black uppercase tracking-widest text-zinc-400">Your Recording</span>
+                        <div className="flex items-center gap-2">
+                          <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+                          <span className="text-[10px] font-bold uppercase text-green-600">Ready</span>
+                        </div>
+                      </div>
+                      <audio src={audioUrl} controls className="w-full h-10 filter grayscale brightness-110" />
+                    </div>
+                  )}
+                  <button onClick={() => { playSound('click'); handleAgain(); }} className="w-full py-5 bg-zinc-900 text-white rounded-2xl font-bold text-sm tracking-wider hover:bg-zinc-800 transition-all shadow-lg flex items-center justify-center gap-3 active:scale-[0.98]"><span>✦</span> Practice Another Word</button>
+                </div>
               )}
               {(gameState === 'hidden' || gameState === 'countdown' || gameState === 'reveal') && (
                 <p className="text-center text-[11px] font-medium text-zinc-400 uppercase tracking-widest pt-2">Adjust your time before starting</p>
