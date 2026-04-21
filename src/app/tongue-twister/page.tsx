@@ -6,7 +6,7 @@ import confetti from 'canvas-confetti'
 import twistersData from '@/data/twisters.json'
 
 // ─── Tongue Twister Data ────────────────────────────────────────────────────
-const TWISTERS: Record<string, { text: string; tag: string }> = twistersData
+const TWISTERS: Record<string, { text: string; tag: string }[]> = twistersData
 
 type Difficulty = 'easy' | 'medium' | 'hard'
 
