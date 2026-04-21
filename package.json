@@ -10,6 +10,7 @@
     "expand-pool": "node scripts/expand-pool.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.103.3",
     "@vercel/analytics": "^2.0.1",
     "canvas-confetti": "^1.9.4",
     "groq-sdk": "^1.1.2",

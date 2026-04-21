@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState } from 'react'
+import Link from 'next/link'
 import MysteryWord from '@/components/challenge/MysteryWord'
 import wordsData from '@/data/words.json'
 
@@ -54,6 +55,15 @@ export default function Home() {
           >
             ONE-MIN
           </span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-900 bg-zinc-100 rounded-xl">
+            Word Challenge
+          </span>
+          <div className="h-5 w-px bg-zinc-200" />
+          <Link href="/tongue-twister" className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-400 hover:text-zinc-900 transition-colors rounded-xl hover:bg-zinc-50">
+            Tongue Twister →
+          </Link>
         </div>
       </nav>
 
