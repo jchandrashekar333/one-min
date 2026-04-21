@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useState, Suspense } from 'react'
 import Link from 'next/link'
 import MysteryWord from '@/components/challenge/MysteryWord'
 import wordsData from '@/data/words.json'
@@ -68,10 +68,12 @@ export default function Home() {
       </nav>
 
       <main className="max-w-6xl mx-auto px-6 md:px-12 pt-4 pb-16 flex flex-col gap-24">
-        <MysteryWord
-          dayNumber={currentDay}
-          onComplete={handleWordComplete}
-        />
+        <Suspense fallback={null}>
+          <MysteryWord
+            dayNumber={currentDay}
+            onComplete={handleWordComplete}
+          />
+        </Suspense>
       </main>
     </div>
   )
