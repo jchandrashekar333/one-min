@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { useSearchParams } from 'next/navigation'
 import confetti from 'canvas-confetti'
 import wordsData from '@/data/words.json'
-import { supabase } from '@/lib/supabase'
+
 
 type Difficulty = 'easy' | 'medium' | 'hard'
 type Category = 'General' | 'Tech' | 'Finance' | 'Interview' | 'Debate'
@@ -184,32 +184,8 @@ export default function MysteryWord({
     window.speechSynthesis.speak(utterance);
   };
 
-  const saveSessionToCloud = async () => {
-    if (!wordData) return;
-
-    try {
-      const { error } = await supabase
-        .from('sessions')
-        .insert([
-          {
-            word: wordData.word,
-            category: wordData.category,
-            difficulty: difficulty,
-            duration_seconds: sessionTime,
-            recording_url: null // This will be null for now, but ready for later!
-          }
-        ]);
-
-      if (error) throw error;
-      console.log("Session saved to Supabase successfully! 🛰️");
-    } catch (err) {
-      console.error("Error saving to Supabase:", err);
-    }
-  };
-
   const handleDone = () => {
     setGameState('done')
-    saveSessionToCloud(); // Save to database!
     confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 }, colors: ['#000000', '#DEDEDE', '#808080'] })
     onComplete()
   }
