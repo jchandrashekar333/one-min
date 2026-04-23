@@ -123,7 +123,7 @@ export default function StoryTellerPage() {
   return (
     <div className="min-h-screen bg-[#fafafa] text-zinc-900 selection:bg-zinc-900 selection:text-white pb-32 overflow-x-hidden">
       {/* Navbar */}
-      <nav className="flex items-center justify-between px-6 md:px-12 py-6 sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-zinc-100/50">
+      <nav className="flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-4 md:py-6 sticky top-0 bg-white/80 backdrop-blur-md z-50 border-b border-zinc-100/50 gap-4 md:gap-0">
         <Link href="/" className="flex items-center gap-4 cursor-pointer group select-none">
           <div
             className="w-11 h-11 bg-white border-[2.5px] border-zinc-900 rounded-xl flex items-center justify-center transition-transform group-hover:scale-110 group-hover:-rotate-3"
@@ -146,16 +146,16 @@ export default function StoryTellerPage() {
             ONE-MIN
           </span>
         </Link>
-        <div className="flex items-center gap-2">
-          <Link href="/" className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-400 hover:text-zinc-900 transition-colors rounded-xl hover:bg-zinc-50">
+        <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto max-w-full pb-2 md:pb-0 hide-scrollbar" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' }}>
+          <Link href="/" className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-400 hover:text-zinc-900 transition-colors rounded-xl hover:bg-zinc-50 whitespace-nowrap">
             Word Challenge
           </Link>
-          <div className="h-5 w-px bg-zinc-200" />
-          <Link href="/tongue-twister" className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-400 hover:text-zinc-900 transition-colors rounded-xl hover:bg-zinc-50">
+          <div className="h-5 w-px bg-zinc-200 shrink-0" />
+          <Link href="/tongue-twister" className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-400 hover:text-zinc-900 transition-colors rounded-xl hover:bg-zinc-50 whitespace-nowrap">
             Tongue Twister
           </Link>
-          <div className="h-5 w-px bg-zinc-200" />
-          <span className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-900 bg-zinc-100 rounded-xl">
+          <div className="h-5 w-px bg-zinc-200 shrink-0" />
+          <span className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-900 bg-zinc-100 rounded-xl whitespace-nowrap">
             Story Teller
           </span>
         </div>
@@ -168,7 +168,7 @@ export default function StoryTellerPage() {
             <span className="px-3 py-1 bg-zinc-900 text-white text-[10px] font-black uppercase tracking-[0.2em] rounded-full">New</span>
             <span className="text-[11px] font-bold text-zinc-400 uppercase tracking-widest">Story Teller Mode</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-[950] text-zinc-900 italic tracking-tighter leading-none uppercase">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-[950] text-zinc-900 italic tracking-tighter leading-none uppercase">
             Speak Like a <span className="relative inline-block">Pro
               <div className="absolute -bottom-1 left-0 w-full h-2 bg-zinc-900 rounded-full" />
             </span>
@@ -257,7 +257,7 @@ export default function StoryTellerPage() {
 
           {/* Right: Teleprompter View (col span 8) */}
           <div className="lg:col-span-8">
-            <div className="bg-zinc-900 text-white rounded-[2rem] relative overflow-hidden flex flex-col" style={{ minHeight: '600px', height: '60vh', boxShadow: 'inset 0 0 100px rgba(0,0,0,0.8), 8px 8px 0 0 #e4e4e7' }}>
+            <div className="bg-zinc-900 text-white rounded-[2rem] relative overflow-hidden flex flex-col" style={{ minHeight: '500px', height: '60vh', boxShadow: 'inset 0 0 100px rgba(0,0,0,0.8), 8px 8px 0 0 #e4e4e7' }}>
               
               {/* Teleprompter Focus Line Overlay */}
               <div className="absolute top-1/2 left-0 w-full h-[120px] -translate-y-1/2 pointer-events-none z-10 flex flex-col justify-between">
@@ -273,21 +273,21 @@ export default function StoryTellerPage() {
               {/* Scroll Container */}
               <div 
                 ref={containerRef}
-                className="flex-1 w-full px-12 md:px-24 overflow-hidden relative"
+                className="flex-1 w-full px-6 md:px-12 lg:px-24 overflow-hidden relative"
               >
                 <div 
                   ref={contentRef}
-                  className="absolute left-0 w-full px-12 md:px-24 flex flex-col gap-6"
+                  className="absolute left-0 w-full px-6 md:px-12 lg:px-24 flex flex-col gap-4 md:gap-6"
                   style={{ transform: `translateY(${offsetY}px)` }}
                 >
-                  <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight text-zinc-400 mb-8 border-b-2 border-zinc-700 pb-4 inline-block">
+                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-black uppercase tracking-tight text-zinc-400 mb-6 md:mb-8 border-b-2 border-zinc-700 pb-4 inline-block">
                     {story.title}
                   </h2>
                   
                   {lines.map((line, idx) => (
                     <p 
                       key={idx} 
-                      className="text-3xl md:text-5xl font-[900] tracking-tight leading-[1.3] text-zinc-100"
+                      className="text-2xl md:text-4xl lg:text-5xl font-[900] tracking-tight leading-[1.3] text-zinc-100"
                     >
                       {line}
                     </p>
