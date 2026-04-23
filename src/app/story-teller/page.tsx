@@ -35,8 +35,8 @@ export default function StoryTellerPage() {
   
   const containerRef = useRef<HTMLDivElement>(null)
   const contentRef = useRef<HTMLDivElement>(null)
-  const requestRef = useRef<number>()
-  const lastTimeRef = useRef<number>()
+  const requestRef = useRef<number | undefined>(undefined)
+  const lastTimeRef = useRef<number | undefined>(undefined)
 
   const stories: Story[] = storiesData
   const story = stories[currentStoryIndex]
