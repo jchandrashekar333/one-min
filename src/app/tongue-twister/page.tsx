@@ -203,12 +203,16 @@ export default function TongueTwisterPage() {
         </Link>
         <div className="flex items-center gap-2">
           <Link href="/" className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-400 hover:text-zinc-900 transition-colors rounded-xl hover:bg-zinc-50">
-            ← Word Challenge
+            Word Challenge
           </Link>
           <div className="h-5 w-px bg-zinc-200" />
           <span className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-900 bg-zinc-100 rounded-xl">
             Tongue Twister
           </span>
+          <div className="h-5 w-px bg-zinc-200" />
+          <Link href="/story-teller" className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-400 hover:text-zinc-900 transition-colors rounded-xl hover:bg-zinc-50">
+            Story Teller →
+          </Link>
         </div>
       </nav>
 

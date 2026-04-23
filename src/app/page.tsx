@@ -62,7 +62,11 @@ export default function Home() {
           </span>
           <div className="h-5 w-px bg-zinc-200" />
           <Link href="/tongue-twister" className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-400 hover:text-zinc-900 transition-colors rounded-xl hover:bg-zinc-50">
-            Tongue Twister →
+            Tongue Twister
+          </Link>
+          <div className="h-5 w-px bg-zinc-200" />
+          <Link href="/story-teller" className="px-4 py-2 text-xs font-bold uppercase tracking-widest text-zinc-400 hover:text-zinc-900 transition-colors rounded-xl hover:bg-zinc-50">
+            Story Teller →
           </Link>
         </div>
       </nav>
